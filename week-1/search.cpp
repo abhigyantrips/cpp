@@ -3,12 +3,13 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
   int num = 5;
-  int arr[] = { 1, 2, 3, 4, 5 };
+  int arr[] = {1, 2, 3, 4, 5};
   int k = 3;
 
-  bool found = binary_search(arr, arr+num, k);
+  bool found = binary_search(arr, arr + num, k);
 
   if (found)
     cout << "Found!" << endl;

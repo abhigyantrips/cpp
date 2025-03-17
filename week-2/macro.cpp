@@ -2,9 +2,10 @@
 
 using namespace std;
 
-#define SQUARE(x) x * x
+#define SQUARE(x) x *x
 
-int main() {
+int main()
+{
   int a = 3;
   int b = SQUARE(a);
 

@@ -4,7 +4,8 @@ using namespace std;
 
 inline int SQUARE(int x) { return x * x; }
 
-int main() {
+int main()
+{
   int a = 3;
   int b = SQUARE(++a);
 

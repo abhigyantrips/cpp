@@ -3,7 +3,8 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
   int num;
   vector<int> arr;
 
@@ -13,12 +14,14 @@ int main() {
   arr.resize(num);
 
   cout << "Enter the numbers:" << endl;
-  for (int i = 0; i < num; i++) {
+  for (int i = 0; i < num; i++)
+  {
     cin >> arr[i];
   }
 
   cout << "Array is:" << endl;
-  for (int i = 0; i < num; i++) {
+  for (int i = 0; i < num; i++)
+  {
     cout << arr[i] << " ";
   }
 

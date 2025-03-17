@@ -3,7 +3,8 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
   string something = "something";
 
   cout << "String is: " << something << endl;
